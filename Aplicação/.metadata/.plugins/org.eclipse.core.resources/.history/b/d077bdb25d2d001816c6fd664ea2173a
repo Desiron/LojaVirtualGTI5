@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+<h:head>
+	<title>Listar Produto</title>
+</h:head>
+<h:body>
+	<h:dataTable var="prod" value="#{produtoCtrl.listagem}">
+		<h:column id="id">
+			<f:facet name="header" value="ID"></f:facet>
+			<h:outputLabel value="#{prod.id}" />
+		</h:column>
+		<h:column id="nome">
+			<f:facet name="header" value="Nome"></f:facet>
+			<h:outputLabel value="#{prod.nome}" />
+		</h:column>
+		<h:column id="preco">
+			<f:facet name="header" value="Nome"></f:facet>
+			<h:outputLabel value="#{prod.preco}" />
+		</h:column>
+	</h:dataTable>	
+</h:body>
+<h:messages style="color:red;margin:2px;" />
+</html>

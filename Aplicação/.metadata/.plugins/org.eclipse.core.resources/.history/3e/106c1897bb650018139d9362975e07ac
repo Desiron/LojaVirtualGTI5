@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<title>Formulário Pessoa</title>
+</h:head>
+<h:body>
+	<h:form id="menu">
+		<p:menubar>
+			<p:menuitem value="Início" action="indexAdmin" />
+			<p:submenu label="Cadastrar">
+				<p:menuitem value="Pessoa" action="#{pessoaCtrl.actionInserir}" />
+				<p:menuitem value="Produto" action="#{produtoCtrl.actionInserir}" />
+				<p:menuitem value="Forma Pagamento" action="lista_formaPgto" />
+			</p:submenu>
+			<p:submenu label="Listas">
+				<p:menuitem value="Pessoa" action="lista_pessoa" />
+				<p:menuitem value="Produto" action="lista_produto" />
+			</p:submenu>
+			<f:facet name="options">
+				<p:inputText style="margin-right:10px" placeholder="Search" />
+				<p:commandButton action="index" type="button" value="Sair"
+					icon="ui-icon-extlink" />
+			</f:facet>
+		</p:menubar>
+	</h:form>
+
+	<div align="center">
+		<h:form id="pessoa">
+			<h3>
+				<h:outputText value="Formulário de Cadastro de Pessoa" />
+			</h3>
+			<p:panelGrid columns="3">
+				<p:panelGrid columns="2">
+					<h:outputText value="Nome" />
+					<p:inputText value="#{pessoaCtrl.pessoa.nome}" />
+					<h:outputText value="RG" />
+					<p:inputText value="#{pessoaCtrl.pessoa.rg}" />
+					<h:outputText value="CPF" />
+					<p:inputText value="#{pessoaCtrl.pessoa.cpf}" />
+					<h:outputText value="Data de Nascimento" />
+					<p:inputText value="#{pessoaCtrl.pessoa.data_nasc}">
+						<f:convertDateTime pattern="dd/MM/yyyy"
+							timeZone="America/Sao_Paulo" />
+					</p:inputText>
+					<h:outputText value="Email" />
+					<p:inputText value="#{pessoaCtrl.pessoa.email}" />
+					<h:outputText value="Tipo" />
+					<p:inputText value="#{pessoaCtrl.pessoa.tipo}" />
+				</p:panelGrid>
+				<p:panelGrid columns="2">
+					<h:outputText value="Rua" />
+					<p:inputText value="#{pessoaCtrl.pessoa.rua}" />
+					<h:outputText value="Bairro" />
+					<p:inputText value="#{pessoaCtrl.pessoa.bairro}" />
+					<h:outputText value="Cidade" />
+					<p:inputText value="#{pessoaCtrl.pessoa.cidade}" />
+					<h:outputText value="CEP" />
+					<p:inputText value="#{pessoaCtrl.pessoa.cep}" />
+					<h:outputText value="UF" />
+					<p:inputText value="#{pessoaCtrl.pessoa.uf}" />
+					<h:outputText value="Nova Senha" />
+					<p:inputText value="#{pessoaCtrl.pessoa.senha}" />
+				</p:panelGrid>
+				<h:form>
+						<p:commandButton value="Adicionar Fone"	action="#{pessoaCtrl.actionInserirFone}" update="pessoa"/>
+						<div align="center">
+							<p:dataTable value="#{pessoaCtrl.pessoa.fones}"	var="fone" rules="rows"	emptyMessage="Nenhum Telefone Adicionado!">
+								<p:column>
+									<f:facet name="header">
+										<h:outputLabel value="Número" />
+									</f:facet>
+									<p:inputText value="#{fone.numero}" size="20" maxlength="20" />
+								</p:column>
+								<p:column>
+									<f:facet name="header">
+										<h:outputLabel value="Descrição" />
+									</f:facet>
+									<p:inputText value="#{fone.descricao}" size="30" maxlength="30" />
+								</p:column>
+								<p:column style="width:40px">
+									<p:commandButton icon="ui-icon-closethick" action="#{pessoaCtrl.actionExcluirFone(fone)}" update="pessoa" />
+								</p:column>
+							</p:dataTable>
+						</div>
+				</h:form>
+			</p:panelGrid>
+			<br></br>
+			<p:commandButton value="Salvar Pessoa"
+				action="#{pessoaCtrl.actionGravar}" update="pessoa,lisPe" />
+			<br></br>
+			<br></br>
+			<br></br>
+		</h:form>
+	</div>
+	<h:form id="lisPe">
+		<div align="center">
+			<h3>
+				<h:outputText value="Pessoas Cadastradas" />
+			</h3>
+			<p:panelGrid columns="1">
+				<p:dataTable var="pes" value="#{pessoaCtrl.list}" style="horizontal-align:center" >
+					<p:column id="id" style="width:5%">
+						<f:facet name="header" value="ID">
+							<h:outputText value="ID" />
+						</f:facet>
+						<p:outputLabel value="#{pes.id}" />
+					</p:column>
+					<p:column id="nome">
+						<f:facet name="header" value="Nome">
+							<h:outputText value="Nome" />
+						</f:facet>
+						<p:outputLabel value="#{pes.nome}" />
+					</p:column>
+					<p:column id="preco">
+						<f:facet name="header" value="CPF">
+							<h:outputText value="CPF" />
+						</f:facet>
+						<p:outputLabel value="#{pes.cpf}" />
+					</p:column>
+					<p:column id="E-mail">
+						<f:facet name="header" value="Email">
+							<h:outputText value="E-mail" />
+						</f:facet>
+						<p:outputLabel value="#{pes.email}" />
+					</p:column>
+					<p:column style="width:11%">
+						<div align="center">
+							<p:commandButton value="Alterar" action="#{pessoaCtrl.actionAlterar(pes)}" update="lisPe,pessoa" />
+							<p:commandButton value="Excluir" action="#{pessoaCtrl.actionExcluir(pes)}" update="lisPe" />
+						</div>
+					</p:column>
+				</p:dataTable>
+			</p:panelGrid>
+		</div>
+	</h:form>
+</h:body>
+</html>

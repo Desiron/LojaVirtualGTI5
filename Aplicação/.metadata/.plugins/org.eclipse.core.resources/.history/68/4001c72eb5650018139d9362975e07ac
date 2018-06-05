@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<title>Loja Virtual</title>
+</h:head>
+<h:body>
+	
+
+	<div align="center">
+		<h:outputText value="Loja Virtual" />
+	</div>
+	<h:form>
+	<p:growl id="messages" />
+	<p:menubar>			
+			<p:submenu label="Listas">
+				<p:menuitem value="Pessoa" action="lista_pessoa" />
+				<p:menuitem value="Produto" action="lista_produto" />
+			</p:submenu>
+			<f:facet name="options">
+				<p:inputText style="margin-right:10px" placeholder="Search" />
+				<p:commandButton action="index" type="button" value="Sair"
+					icon="ui-icon-extlink" />
+			</f:facet>
+		</p:menubar>
+		<h:panelGrid columns="4">
+			<div>
+				<h:panelGrid columns="1">
+					<h:outputText value="Pesquisar Produto:" />
+					<h:inputText value="#{produtoCtrl.filtro}" />
+					<h:commandButton value="Listar Produtos" action="lista_produto" />
+				</h:panelGrid>
+				<br></br> <br></br> <br></br>
+			</div>
+			<div>
+				<h:panelGrid columns="1">
+					<h:outputText value="Pesquisar Pessoa:" />
+					<h:inputText value="#{pessoaCtrl.filtro}" />
+					<h:commandButton value="Listar Pessoa" action="lista_pessoa" />
+				</h:panelGrid>
+				<br></br> <br></br> <br></br>
+			</div>
+		</h:panelGrid>
+	</h:form>
+	
+	
+	<h:form id="listProd">
+    <p:carousel value="#{carouselView.cars}" headerText="Responsive" var="car" itemStyle="text-align:center" responsive="true">
+        <p:panelGrid columns="2" style="width:100%;margin:10px 0px" columnClasses="label,value" layout="grid" styleClass="ui-panelgrid-blank">
+            <f:facet name="header">
+                <p:graphicImage name="demo/images/car/#{car.brand}.gif"/> 
+            </f:facet>
+ 
+            <h:outputText value="Id:" />
+            <h:outputText value="#{car.id}" />
+ 
+            <h:outputText value="Year" />
+            <h:outputText value="#{car.year}" />
+ 
+            <h:outputText value="Color:" />
+            <h:outputText value="#{car.color}" style="color:#{car.color}"/>
+ 
+            <h:outputText value="Price" />
+            <h:outputText value="$#{car.price}" />
+        </p:panelGrid>
+ 
+        <f:facet name="footer">
+                In total there are #{fn:length(carouselView.cars)} cars.
+        </f:facet>
+    </p:carousel>
+	
+	
+</h:body>
+<h:message style="color:red;margin:2px;" />
+</html>

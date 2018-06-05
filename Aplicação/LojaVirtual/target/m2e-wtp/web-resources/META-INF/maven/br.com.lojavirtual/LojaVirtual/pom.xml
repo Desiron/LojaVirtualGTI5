@@ -6,13 +6,13 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>LojaVirtual</name>
-	
+
 	<properties>
 		<project.build.sourceEconding>
 			UTF-8
 		</project.build.sourceEconding>
 	</properties>
-	
+
 	<build>
 		<plugins>
 			<plugin>
@@ -25,8 +25,8 @@
 			</plugin>
 		</plugins>
 	</build>
-	
-	
+
+
 	<dependencies>
 		<dependency>
 			<groupId>com.sun.faces</groupId>
@@ -52,8 +52,10 @@
 		<dependency>
 			<groupId>org.primefaces</groupId>
 			<artifactId>primefaces</artifactId>
-			<version>5.3</version>
+			<version>6.2</version>
 		</dependency>
+		
+
 
 		<!-- Spring Security -->
 		<dependency>
@@ -94,5 +96,5 @@
 			<id>org.springframework.security.taglibs.facelets</id>
 			<url>http://spring-security-facelets-taglib.googlecode.com/svn/repo/</url>
 		</repository>
-	</repositories>	
+	</repositories>
 </project>
