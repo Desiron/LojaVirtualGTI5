@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<title>Formulário Pessoa</title>
+</h:head>
+<h:body>
+	<h:form id="menu">
+	
+		<p:menubar>
+			<p:menuitem value="Início" action="/publico/index.xhtml" />
+			<f:facet name="options">
+				<p:commandButton value="Cadastre-se" action="#{pessoaCtrl.actionInserirCadastro}" />
+				<p:commandButton action="/publico/login.xhtml" value="Entre" />
+			</f:facet>
+		</p:menubar>
+	</h:form>
+
+	<div align="left">	
+	<h:form id="pessoa">
+	<br></br>
+	<br></br>
+				<p:fieldset legend="Formulário de Cadastro"	style="margin-bottom:20px">
+					<p:panelGrid columns="3" styleClass="semBorda">
+						<p:fieldset legend="Dados Pessoais" style="margin-bottom:20px">
+							<p:panelGrid columns="2">
+								<h:outputText value="Nome" />
+								<p:inputText value="#{pessoaCtrl.pessoa.nome}" />
+								<h:outputText value="RG" />
+								<p:inputText value="#{pessoaCtrl.pessoa.rg}" />
+								<h:outputText value="CPF" />
+								<p:inputText value="#{pessoaCtrl.pessoa.cpf}" />
+								<h:outputText value="Data de Nascimento" />
+								<p:calendar mindate="01/01/1900" id="dataNasc" value="#{pessoaCtrl.pessoa.data_nasc}"
+									locale="de" navigator="true" pattern="dd-MM-yyyy" />
+								<h:outputText value="Email" />
+								<p:inputText value="#{pessoaCtrl.pessoa.email}" />
+							</p:panelGrid>
+						</p:fieldset>
+						<p:fieldset legend="Endereço" style="margin-bottom:20px">
+							<p:panelGrid columns="2">
+								<h:outputText value="Rua" />
+								<p:inputText value="#{pessoaCtrl.pessoa.rua}" />
+								<h:outputText value="Bairro" />
+								<p:inputText value="#{pessoaCtrl.pessoa.bairro}" />
+								<h:outputText value="Cidade" />
+								<p:inputText value="#{pessoaCtrl.pessoa.cidade}" />
+								<h:outputText value="CEP" />
+								<p:inputText value="#{pessoaCtrl.pessoa.cep}" />
+								<h:outputText value="UF" />
+								<p:inputText value="#{pessoaCtrl.pessoa.uf}" />
+								<h:outputText value="Nova Senha" />
+								<p:password value="#{pessoaCtrl.pessoa.senha}" />
+							</p:panelGrid>
+						</p:fieldset>
+						<p:fieldset legend="Telefones de Contato"
+							style="margin-bottom:20px;width:90%;horizontal-align:center">
+							<h:form>
+								<div align="center">
+									<p:commandButton value="+ Fone"
+										action="#{pessoaCtrl.actionInserirFone}" update="pessoa"
+										style="top: 0px" />
+									<br></br>
+									<br></br>
+									<p:dataTable value="#{pessoaCtrl.pessoa.fones}" var="fone"
+										rules="rows" emptyMessage="Nenhum Telefone Adicionado!">
+										<br></br>
+										<br></br>
+										<p:column>
+											<f:facet name="header">
+												<h:outputLabel value="Número" />
+											</f:facet>
+											<p:inputText style="width:150px" value="#{fone.numero}"
+												size="16" maxlength="16" />
+										</p:column>
+										<p:column>
+											<f:facet name="header">
+												<h:outputLabel value="Descrição" />
+											</f:facet>
+											<p:inputText style="width:150px" value="#{fone.descricao}"
+												size="20" maxlength="20" />
+										</p:column>
+										<p:column style="width:40px">
+											<p:commandButton icon="ui-icon-closethick" action="#{pessoaCtrl.actionExcluirFone(fone)}" update="pessoa" />
+										</p:column>
+									</p:dataTable>
+								</div>
+							</h:form>
+						</p:fieldset>
+					</p:panelGrid>
+					<br></br>
+					<div align="left">
+					<p:commandButton value="Limpar" action="#{pessoaCtrl.limpar}"	update="pessoa" />
+					<p:commandButton value="Concluir Cadastro"	action="#{pessoaCtrl.actionGravarCadastro}"  update="pessoa,menu" />
+					</div>
+				</p:fieldset>
+		</h:form>		
+	</div>
+	<style type="text/css">
+.semBorda tr, .semBorda td {
+	border: none !important;
+	text-align: center;
+	align-content: center;
+}
+</style>
+</h:body>
+</html>

@@ -1,0 +1,24 @@
+package negocio;
+
+
+import java.io.IOException;
+import java.util.Set;
+import javax.security.sasl.SaslException;
+import org.springframework.http.HttpRequest;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.authority.AuthorityUtils;
+import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
+
+public abstract  class RedirecionaPagina implements AuthenticationSuccessHandler {
+
+	public  <HttpServeltResponse> void onAuthenticationSuccess(HttpRequest request, HttpServeltResponse response, Authentication authentication)
+			throws IOException, SaslException {
+		Set<String> roles = AuthorityUtils.authorityListToSet(authentication.getAuthorities());
+		if(roles.contains("ROLE_ADMINISTRADOR")) {
+			response.sendRedirect("/admin/principal.xhtml");
+		}else if(roles.contains("ROLE_CLIENTE")) {
+			response.sendRedirect("/cliente/principal.xhtml");
+		}
+		
+	}
+}

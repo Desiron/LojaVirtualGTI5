@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<title>Loja Virtual</title>
+</h:head>
+
+<h:body>
+	<h:form id="menu">
+		<p:menubar>
+			<p:menuitem value="Início" action="/publico/index.xhtml" />
+			<f:facet name="options">
+				<p:inputText value="#{produtoCtrl.filtro}" />
+				<p:commandButton value="Pesquisar" update="lisPro" />
+				<p:commandButton value="Cadastre-se" action="#{pessoaCtrl.actionInserirCadastro}" />
+				<p:commandButton action="/publico/login.xhtml" value="Entre" />
+			</f:facet>
+		</p:menubar>
+	</h:form>
+	<h:form id="lisPro">
+			<p:dataGrid var="prod" value="#{produtoCtrl.lista}" columns="4"	layout="grid" rows="12" paginator="true" id="prods"	paginatorTemplate="  {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}" emptyMessage="Nenhum produto encontrado com: #{produtoCtrl.filtro}">
+				<p:panel style="text-align:center" styleClass="semBorda">
+					<div align="center">
+						<p:panelGrid columns="1" styleClass="semBorda">
+							<p:graphicImage value="/imagem/teste.JPG" width="24" />
+							<p:graphicImage styleClass="semBorda" height="40px" width="60px"
+								url="..imagem/loja.gif" name="imagem/loja.gif" />
+							<h:outputText value="#{prod.nome}" />
+							<h:outputText value="R$ #{prod.preco}" />
+							<p:commandButton value="Adicionar ao Carrinho" action=" " />
+						</p:panelGrid>
+					</div>
+				</p:panel>
+			</p:dataGrid>
+</h:form>
+	<style type="text/css">
+.semBorda tr, .semBorda td {
+	border: none !important;
+	text-align: center;
+	align-content: center;
+}
+</style>
+</h:body>
+</html>

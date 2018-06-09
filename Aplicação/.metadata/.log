@@ -5468,3 +5468,1240 @@ java.lang.IllegalArgumentException: Version 8.0 of project facet jst.appclient d
 	at org.eclipse.jst.jee.ui.internal.navigator.Web25ContentProvider.getNewContentProviderInstance(Web25ContentProvider.java:69)
 	at org.eclipse.jst.jee.ui.internal.navigator.LoadingJeeDDJob.run(LoadingJeeDDJob.java:50)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-05 10:42:51.485
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-05 10:42:51.486
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-05 10:53:25.655
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-05 10:53:25.655
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.wst.server.core 4 0 2018-06-05 12:38:12.023
+!MESSAGE Could not delete F:\Faculdade (SENAC)\GTI 5\Programação com Frameworks - Marcelo Faustino\LojaVirtual\Aplicação\.metadata\.plugins\org.eclipse.wst.server.core\tmp4\wtpwebapps\LojaVirtual\WEB-INF\lib\primefaces-6.0.jar. May be locked by another process.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2018-06-05 13:57:10.493
+!MESSAGE Could not delete F:\Faculdade (SENAC)\GTI 5\Programação com Frameworks - Marcelo Faustino\LojaVirtual\Aplicação\.metadata\.plugins\org.eclipse.wst.server.core\tmp4\wtpwebapps\LojaVirtual\WEB-INF\lib\primefaces-6.0.jar. May be locked by another process.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2018-06-05 14:00:15.247
+!MESSAGE Removing obsolete files from server...
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2018-06-05 14:00:15.247
+!MESSAGE Could not clean server of obsolete files: FWK005 parse may not be called while parsing.
+!STACK 0
+org.xml.sax.SAXException: FWK005 parse may not be called while parsing.
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.Factory.loadDocument(Factory.java:88)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.getCatalinaServerInstance(TomcatVersionHelper.java:216)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.cleanupCatalinaServer(TomcatVersionHelper.java:303)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat90Configuration.cleanupServer(Tomcat90Configuration.java:701)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:234)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:975)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3182)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:355)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-05 15:48:13.711
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-05 15:48:13.713
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.wst.server.core 4 0 2018-06-05 15:59:00.861
+!MESSAGE Server Tomcat v9.0 Server at localhost was unable to start within 45 seconds. If the server requires more time, try increasing the timeout in the server editor.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2018-06-05 16:08:44.311
+!MESSAGE Could not publish server configuration: null.
+!STACK 0
+java.lang.NullPointerException
+	at com.sun.org.apache.xerces.internal.parsers.AbstractDOMParser.characters(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.Factory.loadDocument(Factory.java:88)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.localizeConfiguration(TomcatVersionHelper.java:646)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat90Configuration.localizeConfiguration(Tomcat90Configuration.java:708)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:243)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:975)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3182)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:355)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2018-06-05 20:19:15.450
+!MESSAGE Publishing failed with multiple errors
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-06-05 20:19:15.450
+!MESSAGE Could not delete F:\Faculdade (SENAC)\GTI 5\Programação com Frameworks - Marcelo Faustino\LojaVirtual\Aplicação\.metadata\.plugins\org.eclipse.wst.server.core\tmp4\wtpwebapps\LojaVirtual\WEB-INF\lib\antlr-2.7.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-06-05 20:19:15.450
+!MESSAGE Could not delete F:\Faculdade (SENAC)\GTI 5\Programação com Frameworks - Marcelo Faustino\LojaVirtual\Aplicação\.metadata\.plugins\org.eclipse.wst.server.core\tmp4\wtpwebapps\LojaVirtual\WEB-INF\lib\aopalliance-1.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-06-05 20:19:15.450
+!MESSAGE Could not delete F:\Faculdade (SENAC)\GTI 5\Programação com Frameworks - Marcelo Faustino\LojaVirtual\Aplicação\.metadata\.plugins\org.eclipse.wst.server.core\tmp4\wtpwebapps\LojaVirtual\WEB-INF\lib\commons-logging-1.1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-06-05 20:19:15.450
+!MESSAGE Could not delete F:\Faculdade (SENAC)\GTI 5\Programação com Frameworks - Marcelo Faustino\LojaVirtual\Aplicação\.metadata\.plugins\org.eclipse.wst.server.core\tmp4\wtpwebapps\LojaVirtual\WEB-INF\lib\dom4j-1.6.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-06-05 20:19:15.450
+!MESSAGE Could not delete F:\Faculdade (SENAC)\GTI 5\Programação com Frameworks - Marcelo Faustino\LojaVirtual\Aplicação\.metadata\.plugins\org.eclipse.wst.server.core\tmp4\wtpwebapps\LojaVirtual\WEB-INF\lib\hibernate-commons-annotations-4.0.4.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-06-05 20:19:15.450
+!MESSAGE Could not delete F:\Faculdade (SENAC)\GTI 5\Programação com Frameworks - Marcelo Faustino\LojaVirtual\Aplicação\.metadata\.plugins\org.eclipse.wst.server.core\tmp4\wtpwebapps\LojaVirtual\WEB-INF\lib\hibernate-core-4.3.4.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-06-05 20:19:15.450
+!MESSAGE Could not delete F:\Faculdade (SENAC)\GTI 5\Programação com Frameworks - Marcelo Faustino\LojaVirtual\Aplicação\.metadata\.plugins\org.eclipse.wst.server.core\tmp4\wtpwebapps\LojaVirtual\WEB-INF\lib\hibernate-jpa-2.1-api-1.0.0.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-06-05 20:19:15.450
+!MESSAGE Could not delete F:\Faculdade (SENAC)\GTI 5\Programação com Frameworks - Marcelo Faustino\LojaVirtual\Aplicação\.metadata\.plugins\org.eclipse.wst.server.core\tmp4\wtpwebapps\LojaVirtual\WEB-INF\lib\jandex-1.1.0.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-06-05 20:19:15.450
+!MESSAGE Could not delete F:\Faculdade (SENAC)\GTI 5\Programação com Frameworks - Marcelo Faustino\LojaVirtual\Aplicação\.metadata\.plugins\org.eclipse.wst.server.core\tmp4\wtpwebapps\LojaVirtual\WEB-INF\lib\javassist-3.18.1-GA.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-06-05 20:19:15.450
+!MESSAGE Could not delete F:\Faculdade (SENAC)\GTI 5\Programação com Frameworks - Marcelo Faustino\LojaVirtual\Aplicação\.metadata\.plugins\org.eclipse.wst.server.core\tmp4\wtpwebapps\LojaVirtual\WEB-INF\lib\jboss-logging-3.1.3.GA.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-06-05 20:19:15.450
+!MESSAGE Could not delete F:\Faculdade (SENAC)\GTI 5\Programação com Frameworks - Marcelo Faustino\LojaVirtual\Aplicação\.metadata\.plugins\org.eclipse.wst.server.core\tmp4\wtpwebapps\LojaVirtual\WEB-INF\lib\jboss-logging-annotations-1.2.0.Beta1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-06-05 20:19:15.450
+!MESSAGE Could not delete F:\Faculdade (SENAC)\GTI 5\Programação com Frameworks - Marcelo Faustino\LojaVirtual\Aplicação\.metadata\.plugins\org.eclipse.wst.server.core\tmp4\wtpwebapps\LojaVirtual\WEB-INF\lib\jboss-transaction-api_1.2_spec-1.0.0.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-06-05 20:19:15.450
+!MESSAGE Could not delete F:\Faculdade (SENAC)\GTI 5\Programação com Frameworks - Marcelo Faustino\LojaVirtual\Aplicação\.metadata\.plugins\org.eclipse.wst.server.core\tmp4\wtpwebapps\LojaVirtual\WEB-INF\lib\jsf-api-2.2.10.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-06-05 20:19:15.450
+!MESSAGE Could not delete F:\Faculdade (SENAC)\GTI 5\Programação com Frameworks - Marcelo Faustino\LojaVirtual\Aplicação\.metadata\.plugins\org.eclipse.wst.server.core\tmp4\wtpwebapps\LojaVirtual\WEB-INF\lib\jsf-impl-2.2.10.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-06-05 20:19:15.450
+!MESSAGE Could not delete F:\Faculdade (SENAC)\GTI 5\Programação com Frameworks - Marcelo Faustino\LojaVirtual\Aplicação\.metadata\.plugins\org.eclipse.wst.server.core\tmp4\wtpwebapps\LojaVirtual\WEB-INF\lib\primefaces-6.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-06-05 20:19:15.450
+!MESSAGE Could not delete F:\Faculdade (SENAC)\GTI 5\Programação com Frameworks - Marcelo Faustino\LojaVirtual\Aplicação\.metadata\.plugins\org.eclipse.wst.server.core\tmp4\wtpwebapps\LojaVirtual\WEB-INF\lib\spring-aop-3.2.8.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-06-05 20:19:15.450
+!MESSAGE Could not delete F:\Faculdade (SENAC)\GTI 5\Programação com Frameworks - Marcelo Faustino\LojaVirtual\Aplicação\.metadata\.plugins\org.eclipse.wst.server.core\tmp4\wtpwebapps\LojaVirtual\WEB-INF\lib\spring-beans-3.2.8.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-06-05 20:19:15.450
+!MESSAGE Could not delete F:\Faculdade (SENAC)\GTI 5\Programação com Frameworks - Marcelo Faustino\LojaVirtual\Aplicação\.metadata\.plugins\org.eclipse.wst.server.core\tmp4\wtpwebapps\LojaVirtual\WEB-INF\lib\spring-context-3.2.8.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-06-05 20:19:15.450
+!MESSAGE Could not delete F:\Faculdade (SENAC)\GTI 5\Programação com Frameworks - Marcelo Faustino\LojaVirtual\Aplicação\.metadata\.plugins\org.eclipse.wst.server.core\tmp4\wtpwebapps\LojaVirtual\WEB-INF\lib\spring-core-3.2.8.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-06-05 20:19:15.450
+!MESSAGE Could not delete F:\Faculdade (SENAC)\GTI 5\Programação com Frameworks - Marcelo Faustino\LojaVirtual\Aplicação\.metadata\.plugins\org.eclipse.wst.server.core\tmp4\wtpwebapps\LojaVirtual\WEB-INF\lib\spring-expression-3.2.8.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-06-05 20:19:15.450
+!MESSAGE Could not delete F:\Faculdade (SENAC)\GTI 5\Programação com Frameworks - Marcelo Faustino\LojaVirtual\Aplicação\.metadata\.plugins\org.eclipse.wst.server.core\tmp4\wtpwebapps\LojaVirtual\WEB-INF\lib\spring-jdbc-3.2.6.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-06-05 20:19:15.450
+!MESSAGE Could not delete F:\Faculdade (SENAC)\GTI 5\Programação com Frameworks - Marcelo Faustino\LojaVirtual\Aplicação\.metadata\.plugins\org.eclipse.wst.server.core\tmp4\wtpwebapps\LojaVirtual\WEB-INF\lib\spring-security-acl-3.2.6.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-06-05 20:19:15.450
+!MESSAGE Could not delete F:\Faculdade (SENAC)\GTI 5\Programação com Frameworks - Marcelo Faustino\LojaVirtual\Aplicação\.metadata\.plugins\org.eclipse.wst.server.core\tmp4\wtpwebapps\LojaVirtual\WEB-INF\lib\spring-security-config-3.2.6.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-06-05 20:19:15.450
+!MESSAGE Could not delete F:\Faculdade (SENAC)\GTI 5\Programação com Frameworks - Marcelo Faustino\LojaVirtual\Aplicação\.metadata\.plugins\org.eclipse.wst.server.core\tmp4\wtpwebapps\LojaVirtual\WEB-INF\lib\spring-security-core-3.2.6.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-06-05 20:19:15.477
+!MESSAGE Could not delete F:\Faculdade (SENAC)\GTI 5\Programação com Frameworks - Marcelo Faustino\LojaVirtual\Aplicação\.metadata\.plugins\org.eclipse.wst.server.core\tmp4\wtpwebapps\LojaVirtual\WEB-INF\lib\spring-security-taglibs-3.2.6.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-06-05 20:19:15.477
+!MESSAGE Could not delete F:\Faculdade (SENAC)\GTI 5\Programação com Frameworks - Marcelo Faustino\LojaVirtual\Aplicação\.metadata\.plugins\org.eclipse.wst.server.core\tmp4\wtpwebapps\LojaVirtual\WEB-INF\lib\spring-security-web-3.2.6.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-06-05 20:19:15.477
+!MESSAGE Could not delete F:\Faculdade (SENAC)\GTI 5\Programação com Frameworks - Marcelo Faustino\LojaVirtual\Aplicação\.metadata\.plugins\org.eclipse.wst.server.core\tmp4\wtpwebapps\LojaVirtual\WEB-INF\lib\spring-tx-3.2.6.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-06-05 20:19:15.477
+!MESSAGE Could not delete F:\Faculdade (SENAC)\GTI 5\Programação com Frameworks - Marcelo Faustino\LojaVirtual\Aplicação\.metadata\.plugins\org.eclipse.wst.server.core\tmp4\wtpwebapps\LojaVirtual\WEB-INF\lib\spring-web-3.2.8.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-06-05 20:19:15.477
+!MESSAGE Could not delete F:\Faculdade (SENAC)\GTI 5\Programação com Frameworks - Marcelo Faustino\LojaVirtual\Aplicação\.metadata\.plugins\org.eclipse.wst.server.core\tmp4\wtpwebapps\LojaVirtual\WEB-INF\lib\xml-apis-1.0.b2.jar. May be locked by another process.
+
+!ENTRY org.eclipse.ui 4 0 2018-06-05 21:01:37.137
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: assertion failed: 
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:110)
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:96)
+	at org.eclipse.jface.text.contentassist.CompletionProposal.<init>(CompletionProposal.java:72)
+	at org.eclipse.wst.sse.ui.internal.contentassist.CustomCompletionProposal.apply(CustomCompletionProposal.java:101)
+	at org.eclipse.wst.sse.ui.internal.contentassist.CustomCompletionProposal.apply(CustomCompletionProposal.java:133)
+	at org.eclipse.wst.xml.ui.internal.contentassist.MarkupCompletionProposal.apply(MarkupCompletionProposal.java:50)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertProposal(CompletionProposalPopup.java:982)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertSelectedProposalWithMask(CompletionProposalPopup.java:931)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.verifyKey(CompletionProposalPopup.java:1356)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$InternalListener.verifyKey(ContentAssistant.java:807)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:485)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:66)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1088)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:802)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6029)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5732)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1088)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1130)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1126)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1547)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4962)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:364)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4843)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5178)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2560)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3815)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+!SESSION 2018-06-06 22:45:45.511 -----------------------------------------------
+eclipse.buildId=4.7.1.M20171009-0410
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.oomph.base 4 0 2018-06-06 22:45:48.055
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.oomph.base [661]
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.util; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.oomph.base.edit 4 0 2018-06-06 22:45:48.058
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.oomph.base.edit [662]
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+       org.eclipse.oomph.base [661]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.util; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.oomph.jreinfo 4 0 2018-06-06 22:45:48.071
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.oomph.jreinfo [664]
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.util; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.oomph.jreinfo.ui 4 0 2018-06-06 22:45:48.080
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.oomph.jreinfo.ui [665]
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.ui; bundle-version="[1.8.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.oomph.ui; bundle-version="1.8.0.v20170327-1117"; singleton:="true"
+       org.eclipse.oomph.ui [687]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.base.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.base.edit; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+              org.eclipse.oomph.base.edit [662]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+                     org.eclipse.oomph.base [661]
+                       Unresolved requirement: Require-Bundle: org.eclipse.oomph.util; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.jreinfo; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.jreinfo; bundle-version="1.8.0.v20170318-0624"
+       org.eclipse.oomph.jreinfo [664]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.util; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.oomph.p2 4 0 2018-06-06 22:45:48.087
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.oomph.p2 [667]
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+       org.eclipse.oomph.base [661]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.util; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.oomph.p2.core 4 0 2018-06-06 22:45:48.093
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.oomph.p2.core [668]
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.p2; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.p2; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+       org.eclipse.oomph.p2 [667]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+              org.eclipse.oomph.base [661]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.util; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.oomph.p2.edit 4 0 2018-06-06 22:45:48.099
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.oomph.p2.edit [670]
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.base.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.base.edit; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+       org.eclipse.oomph.base.edit [662]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+              org.eclipse.oomph.base [661]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.util; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.p2; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.p2; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+       org.eclipse.oomph.p2 [667]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.oomph.predicates 4 0 2018-06-06 22:45:48.110
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.oomph.predicates [672]
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+       org.eclipse.oomph.base [661]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.util; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.oomph.predicates.edit 4 0 2018-06-06 22:45:48.120
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.oomph.predicates.edit [673]
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.base.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.base.edit; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+       org.eclipse.oomph.base.edit [662]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+              org.eclipse.oomph.base [661]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.util; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.predicates; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.predicates; bundle-version="1.8.0.v20170327-1117"; singleton:="true"
+       org.eclipse.oomph.predicates [672]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.oomph.preferences 4 0 2018-06-06 22:45:48.125
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.oomph.preferences [674]
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+       org.eclipse.oomph.base [661]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.util; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.oomph.resources 4 0 2018-06-06 22:45:48.131
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.oomph.resources [675]
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.predicates; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.predicates; bundle-version="1.8.0.v20170327-1117"; singleton:="true"
+       org.eclipse.oomph.predicates [672]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+              org.eclipse.oomph.base [661]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.util; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.oomph.resources.edit 4 0 2018-06-06 22:45:48.140
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.oomph.resources.edit [676]
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.resources; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.resources; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+       org.eclipse.oomph.resources [675]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.predicates; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.predicates; bundle-version="1.8.0.v20170327-1117"; singleton:="true"
+              org.eclipse.oomph.predicates [672]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+                     org.eclipse.oomph.base [661]
+                       Unresolved requirement: Require-Bundle: org.eclipse.oomph.util; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.base.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.base.edit; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+       org.eclipse.oomph.base.edit [662]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.predicates.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.predicates.edit; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+       org.eclipse.oomph.predicates.edit [673]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.base.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.base.edit; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.predicates; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.predicates; bundle-version="1.8.0.v20170327-1117"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.oomph.setup 4 0 2018-06-06 22:45:48.141
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.oomph.setup [677]
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+       org.eclipse.oomph.base [661]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.util; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.preferences; bundle-version="[1.8.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.oomph.preferences; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+       org.eclipse.oomph.preferences [674]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.oomph.setup.core 4 0 2018-06-06 22:45:48.149
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.oomph.setup.core [678]
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.base.edit; bundle-version="[1.8.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.oomph.base.edit; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+       org.eclipse.oomph.base.edit [662]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+              org.eclipse.oomph.base [661]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.util; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.preferences; bundle-version="[1.8.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.oomph.preferences; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+       org.eclipse.oomph.preferences [674]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.setup; bundle-version="1.8.0.v20170408-0745"; singleton:="true"
+       org.eclipse.oomph.setup [677]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.preferences; bundle-version="[1.8.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.oomph.preferences; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup.p2; bundle-version="[1.8.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.oomph.setup.p2; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+       org.eclipse.oomph.setup.p2 [682]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.p2.core; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.p2.core; bundle-version="1.8.0.v20170410-0909"; singleton:="true"
+              org.eclipse.oomph.p2.core [668]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.p2; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.p2; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+                     org.eclipse.oomph.p2 [667]
+                       Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.setup; bundle-version="1.8.0.v20170408-0745"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.p2.core; bundle-version="[1.8.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.oomph.p2.core; bundle-version="1.8.0.v20170410-0909"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.oomph.setup.edit 4 0 2018-06-06 22:45:48.154
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.oomph.setup.edit [680]
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.base.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.base.edit; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+       org.eclipse.oomph.base.edit [662]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+              org.eclipse.oomph.base [661]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.util; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.setup; bundle-version="1.8.0.v20170408-0745"; singleton:="true"
+       org.eclipse.oomph.setup [677]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.preferences; bundle-version="[1.8.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.oomph.preferences; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+              org.eclipse.oomph.preferences [674]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.oomph.setup.editor 4 0 2018-06-06 22:45:48.168
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.oomph.setup.editor [681]
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.setup.edit; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+       org.eclipse.oomph.setup.edit [680]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.base.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.base.edit; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+              org.eclipse.oomph.base.edit [662]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+                     org.eclipse.oomph.base [661]
+                       Unresolved requirement: Require-Bundle: org.eclipse.oomph.util; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.setup; bundle-version="1.8.0.v20170408-0745"; singleton:="true"
+              org.eclipse.oomph.setup [677]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.preferences; bundle-version="[1.8.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.preferences; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+                     org.eclipse.oomph.preferences [674]
+                       Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.ui; bundle-version="[1.8.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.oomph.ui; bundle-version="1.8.0.v20170327-1117"; singleton:="true"
+       org.eclipse.oomph.ui [687]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.base.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.base.edit; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.predicates.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.predicates.edit; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+       org.eclipse.oomph.predicates.edit [673]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.base.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.base.edit; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.predicates; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.predicates; bundle-version="1.8.0.v20170327-1117"; singleton:="true"
+              org.eclipse.oomph.predicates [672]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup.sync; bundle-version="[1.8.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.oomph.setup.sync; bundle-version="1.8.0.v20170530-1735"; singleton:="true"
+       org.eclipse.oomph.setup.sync [684]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.preferences; bundle-version="[1.8.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.oomph.preferences; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.workingsets.editor; bundle-version="[1.8.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.oomph.workingsets.editor; bundle-version="1.8.0.v20170327-1117"; singleton:="true"
+       org.eclipse.oomph.workingsets.editor [691]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.workingsets.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.workingsets.edit; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+              org.eclipse.oomph.workingsets.edit [690]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.workingsets; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.workingsets; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+                     org.eclipse.oomph.workingsets [689]
+                       Unresolved requirement: Require-Bundle: org.eclipse.oomph.predicates; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.oomph.predicates; bundle-version="1.8.0.v20170327-1117"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.base.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.base.edit; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.predicates.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.predicates.edit; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup.ui; bundle-version="[1.8.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.oomph.setup.ui; bundle-version="1.8.0.v20170530-1735"; singleton:="true"
+       org.eclipse.oomph.setup.ui [685]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup.core; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.setup.core; bundle-version="1.8.0.v20170531-0903"; singleton:="true"
+              org.eclipse.oomph.setup.core [678]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.base.edit; bundle-version="[1.8.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.base.edit; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.setup.edit; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.workingsets.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.workingsets.edit; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.resources.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.resources.edit; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+       org.eclipse.oomph.resources.edit [676]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.resources; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.resources; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+              org.eclipse.oomph.resources [675]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.predicates; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.predicates; bundle-version="1.8.0.v20170327-1117"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.base.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.base.edit; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.base.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.base.edit; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.oomph.setup.p2 4 0 2018-06-06 22:45:48.176
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.oomph.setup.p2 [682]
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.p2.core; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.p2.core; bundle-version="1.8.0.v20170410-0909"; singleton:="true"
+       org.eclipse.oomph.p2.core [668]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.p2; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.p2; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+              org.eclipse.oomph.p2 [667]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+                     org.eclipse.oomph.base [661]
+                       Unresolved requirement: Require-Bundle: org.eclipse.oomph.util; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.setup; bundle-version="1.8.0.v20170408-0745"; singleton:="true"
+       org.eclipse.oomph.setup [677]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.preferences; bundle-version="[1.8.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.oomph.preferences; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+              org.eclipse.oomph.preferences [674]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.oomph.setup.p2.edit 4 0 2018-06-06 22:45:48.182
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.oomph.setup.p2.edit [683]
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup.p2; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.setup.p2; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+       org.eclipse.oomph.setup.p2 [682]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.p2.core; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.p2.core; bundle-version="1.8.0.v20170410-0909"; singleton:="true"
+              org.eclipse.oomph.p2.core [668]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.p2; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.p2; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+                     org.eclipse.oomph.p2 [667]
+                       Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+                            org.eclipse.oomph.base [661]
+                              Unresolved requirement: Require-Bundle: org.eclipse.oomph.util; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.setup; bundle-version="1.8.0.v20170408-0745"; singleton:="true"
+              org.eclipse.oomph.setup [677]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.preferences; bundle-version="[1.8.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.preferences; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+                     org.eclipse.oomph.preferences [674]
+                       Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.p2.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.p2.edit; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+       org.eclipse.oomph.p2.edit [670]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.base.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.base.edit; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+              org.eclipse.oomph.base.edit [662]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.base.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.base.edit; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.setup.edit; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+       org.eclipse.oomph.setup.edit [680]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.setup; bundle-version="1.8.0.v20170408-0745"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.oomph.setup.sync 4 0 2018-06-06 22:45:48.204
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.oomph.setup.sync [684]
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup.core; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.setup.core; bundle-version="1.8.0.v20170531-0903"; singleton:="true"
+       org.eclipse.oomph.setup.core [678]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.base.edit; bundle-version="[1.8.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.oomph.base.edit; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+              org.eclipse.oomph.base.edit [662]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+                     org.eclipse.oomph.base [661]
+                       Unresolved requirement: Require-Bundle: org.eclipse.oomph.util; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.setup; bundle-version="1.8.0.v20170408-0745"; singleton:="true"
+              org.eclipse.oomph.setup [677]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.preferences; bundle-version="[1.8.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.preferences; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+                     org.eclipse.oomph.preferences [674]
+                       Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.p2.core; bundle-version="[1.8.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.oomph.p2.core; bundle-version="1.8.0.v20170410-0909"; singleton:="true"
+              org.eclipse.oomph.p2.core [668]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.p2; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.p2; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+                     org.eclipse.oomph.p2 [667]
+                       Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.preferences; bundle-version="[1.8.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.oomph.preferences; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.setup; bundle-version="1.8.0.v20170408-0745"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.oomph.setup.ui 4 0 2018-06-06 22:45:48.215
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.oomph.setup.ui [685]
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.p2.ui; bundle-version="[1.8.0,2.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup.sync; bundle-version="[1.8.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.oomph.setup.sync; bundle-version="1.8.0.v20170530-1735"; singleton:="true"
+       org.eclipse.oomph.setup.sync [684]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+              org.eclipse.oomph.base [661]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.util; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup.core; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.setup.core; bundle-version="1.8.0.v20170531-0903"; singleton:="true"
+       org.eclipse.oomph.setup.core [678]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.base.edit; bundle-version="[1.8.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.oomph.base.edit; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+              org.eclipse.oomph.base.edit [662]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.preferences; bundle-version="[1.8.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.oomph.preferences; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+              org.eclipse.oomph.preferences [674]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.setup; bundle-version="1.8.0.v20170408-0745"; singleton:="true"
+              org.eclipse.oomph.setup [677]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.preferences; bundle-version="[1.8.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.preferences; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup.p2; bundle-version="[1.8.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.oomph.setup.p2; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+              org.eclipse.oomph.setup.p2 [682]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.p2.core; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.p2.core; bundle-version="1.8.0.v20170410-0909"; singleton:="true"
+                     org.eclipse.oomph.p2.core [668]
+                       Unresolved requirement: Require-Bundle: org.eclipse.oomph.p2; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.oomph.p2; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+                            org.eclipse.oomph.p2 [667]
+                              Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                                -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.setup; bundle-version="1.8.0.v20170408-0745"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.p2.core; bundle-version="[1.8.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.oomph.p2.core; bundle-version="1.8.0.v20170410-0909"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.setup.edit; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+       org.eclipse.oomph.setup.edit [680]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.setup; bundle-version="1.8.0.v20170408-0745"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.p2.core; bundle-version="[1.8.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.oomph.p2.core; bundle-version="1.8.0.v20170410-0909"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.p2.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.p2.edit; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+       org.eclipse.oomph.p2.edit [670]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.base.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.base.edit; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.p2; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.p2; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.ui; bundle-version="[1.8.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.oomph.ui; bundle-version="1.8.0.v20170327-1117"; singleton:="true"
+       org.eclipse.oomph.ui [687]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.base.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.base.edit; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup.p2.edit; bundle-version="[1.8.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.oomph.setup.p2.edit; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+       org.eclipse.oomph.setup.p2.edit [683]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup.p2; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.setup.p2; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.oomph.setup.ui.questionnaire 4 0 2018-06-06 22:45:48.226
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.oomph.setup.ui.questionnaire [686]
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.preferences; bundle-version="[1.8.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.oomph.preferences; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+       org.eclipse.oomph.preferences [674]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+              org.eclipse.oomph.base [661]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.util; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.ui; bundle-version="[1.8.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.oomph.ui; bundle-version="1.8.0.v20170327-1117"; singleton:="true"
+       org.eclipse.oomph.ui [687]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.base.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.base.edit; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+              org.eclipse.oomph.base.edit [662]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup.ui; bundle-version="[1.8.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.oomph.setup.ui; bundle-version="1.8.0.v20170530-1735"; singleton:="true"
+       org.eclipse.oomph.setup.ui [685]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.p2.ui; bundle-version="[1.8.0,2.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup.sync; bundle-version="[1.8.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.oomph.setup.sync; bundle-version="1.8.0.v20170530-1735"; singleton:="true"
+              org.eclipse.oomph.setup.sync [684]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup.core; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.setup.core; bundle-version="1.8.0.v20170531-0903"; singleton:="true"
+              org.eclipse.oomph.setup.core [678]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.base.edit; bundle-version="[1.8.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.base.edit; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.preferences; bundle-version="[1.8.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.preferences; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.setup; bundle-version="1.8.0.v20170408-0745"; singleton:="true"
+                     org.eclipse.oomph.setup [677]
+                       Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.oomph.preferences; bundle-version="[1.8.0,2.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.oomph.preferences; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup.p2; bundle-version="[1.8.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.setup.p2; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+                     org.eclipse.oomph.setup.p2 [682]
+                       Unresolved requirement: Require-Bundle: org.eclipse.oomph.p2.core; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.oomph.p2.core; bundle-version="1.8.0.v20170410-0909"; singleton:="true"
+                            org.eclipse.oomph.p2.core [668]
+                              Unresolved requirement: Require-Bundle: org.eclipse.oomph.p2; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                                -> Bundle-SymbolicName: org.eclipse.oomph.p2; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+                                   org.eclipse.oomph.p2 [667]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                                       -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.oomph.setup; bundle-version="1.8.0.v20170408-0745"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.p2.core; bundle-version="[1.8.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.p2.core; bundle-version="1.8.0.v20170410-0909"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.setup.edit; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+              org.eclipse.oomph.setup.edit [680]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.setup; bundle-version="1.8.0.v20170408-0745"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.p2.core; bundle-version="[1.8.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.oomph.p2.core; bundle-version="1.8.0.v20170410-0909"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.p2.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.p2.edit; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+              org.eclipse.oomph.p2.edit [670]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.base.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.base.edit; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.ui; bundle-version="[1.8.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.oomph.ui; bundle-version="1.8.0.v20170327-1117"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup.p2.edit; bundle-version="[1.8.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.oomph.setup.p2.edit; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+              org.eclipse.oomph.setup.p2.edit [683]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.setup.p2; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.setup.p2; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.oomph.ui 4 0 2018-06-06 22:45:48.233
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.oomph.ui [687]
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.base.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.base.edit; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+       org.eclipse.oomph.base.edit [662]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+              org.eclipse.oomph.base [661]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.util; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.oomph.workingsets 4 0 2018-06-06 22:45:48.243
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.oomph.workingsets [689]
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.predicates; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.predicates; bundle-version="1.8.0.v20170327-1117"; singleton:="true"
+       org.eclipse.oomph.predicates [672]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+              org.eclipse.oomph.base [661]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.util; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.oomph.workingsets.edit 4 0 2018-06-06 22:45:48.247
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.oomph.workingsets.edit [690]
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.workingsets; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.workingsets; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+       org.eclipse.oomph.workingsets [689]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.predicates; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.predicates; bundle-version="1.8.0.v20170327-1117"; singleton:="true"
+              org.eclipse.oomph.predicates [672]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+                     org.eclipse.oomph.base [661]
+                       Unresolved requirement: Require-Bundle: org.eclipse.oomph.util; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.base.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.base.edit; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+       org.eclipse.oomph.base.edit [662]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.predicates.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.predicates.edit; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+       org.eclipse.oomph.predicates.edit [673]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.base.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.base.edit; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.predicates; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.predicates; bundle-version="1.8.0.v20170327-1117"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.oomph.workingsets.editor 4 0 2018-06-06 22:45:48.252
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.oomph.workingsets.editor [691]
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.predicates.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.predicates.edit; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+       org.eclipse.oomph.predicates.edit [673]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.base.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.base.edit; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+              org.eclipse.oomph.base.edit [662]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+                     org.eclipse.oomph.base [661]
+                       Unresolved requirement: Require-Bundle: org.eclipse.oomph.util; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.predicates; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.predicates; bundle-version="1.8.0.v20170327-1117"; singleton:="true"
+              org.eclipse.oomph.predicates [672]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.base; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.base; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.base.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.base.edit; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.oomph.workingsets.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.oomph.workingsets.edit; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+       org.eclipse.oomph.workingsets.edit [690]
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.workingsets; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.workingsets; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+              org.eclipse.oomph.workingsets [689]
+                Unresolved requirement: Require-Bundle: org.eclipse.oomph.predicates; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.oomph.predicates; bundle-version="1.8.0.v20170327-1117"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.base.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.base.edit; bundle-version="1.8.0.v20170318-0624"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.oomph.predicates.edit; bundle-version="[1.8.0,2.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.oomph.predicates.edit; bundle-version="1.8.0.v20170318-0419"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-06 22:46:47.128
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\desir'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jst.j2ee 4 0 2018-06-06 22:48:14.442
+!MESSAGE Plugin org.eclipse.jst.jee, extension org.eclipse.jst.j2ee.J2EEModelProvider
+Version 8.0 of project facet jst.ear does not exist.
+
+!ENTRY org.eclipse.jst.j2ee 4 0 2018-06-06 22:48:14.480
+!MESSAGE Version 8.0 of project facet jst.ear does not exist.
+!STACK 0
+java.lang.IllegalArgumentException: Version 8.0 of project facet jst.ear does not exist.
+	at org.eclipse.wst.common.project.facet.core.util.internal.Versionable.getVersion(Versionable.java:80)
+	at org.eclipse.wst.common.project.facet.core.internal.ProjectFacet.getVersion(ProjectFacet.java:1)
+	at org.eclipse.jst.j2ee.model.J2EEModelProviderRegistry.readElement(J2EEModelProviderRegistry.java:85)
+	at org.eclipse.wst.common.core.util.RegistryReader.internalReadElement(RegistryReader.java:81)
+	at org.eclipse.wst.common.core.util.RegistryReader.readRegistry(RegistryReader.java:122)
+	at org.eclipse.jst.j2ee.model.J2EEModelProviderRegistry.getInstance(J2EEModelProviderRegistry.java:43)
+	at org.eclipse.jst.j2ee.model.ModelProviderManager.initProviders(ModelProviderManager.java:262)
+	at org.eclipse.jst.j2ee.model.ModelProviderManager.getProviders(ModelProviderManager.java:338)
+	at org.eclipse.jst.j2ee.model.ModelProviderManager.getProvider(ModelProviderManager.java:223)
+	at org.eclipse.jst.j2ee.model.ModelProviderManager.getModelProvider(ModelProviderManager.java:93)
+	at org.eclipse.jst.j2ee.model.ModelProviderManager.getModelProvider(ModelProviderManager.java:281)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider.getCachedModelProvider(JEE5ContentProvider.java:76)
+	at org.eclipse.jst.jee.ui.internal.navigator.Web25ContentProvider.getNewContentProviderInstance(Web25ContentProvider.java:69)
+	at org.eclipse.jst.jee.ui.internal.navigator.LoadingJeeDDJob.run(LoadingJeeDDJob.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.jst.j2ee 4 0 2018-06-06 22:48:14.506
+!MESSAGE Plugin org.eclipse.jst.jee, extension org.eclipse.jst.j2ee.J2EEModelProvider
+Version 8.0 of project facet jst.appclient does not exist.
+
+!ENTRY org.eclipse.jst.j2ee 4 0 2018-06-06 22:48:14.508
+!MESSAGE Version 8.0 of project facet jst.appclient does not exist.
+!STACK 0
+java.lang.IllegalArgumentException: Version 8.0 of project facet jst.appclient does not exist.
+	at org.eclipse.wst.common.project.facet.core.util.internal.Versionable.getVersion(Versionable.java:80)
+	at org.eclipse.wst.common.project.facet.core.internal.ProjectFacet.getVersion(ProjectFacet.java:1)
+	at org.eclipse.jst.j2ee.model.J2EEModelProviderRegistry.readElement(J2EEModelProviderRegistry.java:85)
+	at org.eclipse.wst.common.core.util.RegistryReader.internalReadElement(RegistryReader.java:81)
+	at org.eclipse.wst.common.core.util.RegistryReader.readRegistry(RegistryReader.java:122)
+	at org.eclipse.jst.j2ee.model.J2EEModelProviderRegistry.getInstance(J2EEModelProviderRegistry.java:43)
+	at org.eclipse.jst.j2ee.model.ModelProviderManager.initProviders(ModelProviderManager.java:262)
+	at org.eclipse.jst.j2ee.model.ModelProviderManager.getProviders(ModelProviderManager.java:338)
+	at org.eclipse.jst.j2ee.model.ModelProviderManager.getProvider(ModelProviderManager.java:223)
+	at org.eclipse.jst.j2ee.model.ModelProviderManager.getModelProvider(ModelProviderManager.java:93)
+	at org.eclipse.jst.j2ee.model.ModelProviderManager.getModelProvider(ModelProviderManager.java:281)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider.getCachedModelProvider(JEE5ContentProvider.java:76)
+	at org.eclipse.jst.jee.ui.internal.navigator.Web25ContentProvider.getNewContentProviderInstance(Web25ContentProvider.java:69)
+	at org.eclipse.jst.jee.ui.internal.navigator.LoadingJeeDDJob.run(LoadingJeeDDJob.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-06 23:10:49.918
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-06 23:10:49.918
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-06 23:22:05.736
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-06 23:22:05.737
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-06 23:36:26.322
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-06 23:36:26.323
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.debug.core 4 2 2018-06-07 10:31:01.001
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.xsl.internal.debug.ui.XSLDebugUILaunchListener.launchesTerminated(XSLDebugUILaunchListener.java:64)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:314)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:266)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1054)
+	at org.eclipse.debug.core.Launch.fireTerminate(Launch.java:479)
+	at org.eclipse.debug.core.Launch.handleDebugEvents(Launch.java:666)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1155)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1189)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:442)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.debug.core 4 120 2018-06-07 10:31:01.013
+!MESSAGE An exception occurred during launch change notification.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.xsl.internal.debug.ui.XSLDebugUILaunchListener.launchesTerminated(XSLDebugUILaunchListener.java:64)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:314)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:266)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1054)
+	at org.eclipse.debug.core.Launch.fireTerminate(Launch.java:479)
+	at org.eclipse.debug.core.Launch.handleDebugEvents(Launch.java:666)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1155)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1189)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:442)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.server.core 4 0 2018-06-07 10:56:56.491
+!MESSAGE Server Tomcat v9.0 Server at localhost failed to start.
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-07 11:07:19.611
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-07 11:07:19.611
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-07 15:03:33.722
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-07 15:03:33.723
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2018-06-07 15:41:07.864
+!MESSAGE Could not publish server configuration: null.
+!STACK 0
+java.lang.NullPointerException
+	at com.sun.org.apache.xerces.internal.parsers.AbstractDOMParser.comment(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.Factory.loadDocument(Factory.java:88)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.publishCatalinaContextConfig(TomcatVersionHelper.java:507)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat90Configuration.publishContextConfig(Tomcat90Configuration.java:674)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishFinish(TomcatServerBehaviour.java:463)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:1011)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3182)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:355)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.wst.server.core 4 0 2018-06-07 17:52:25.695
+!MESSAGE Server Tomcat v9.0 Server at localhost failed to start.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2018-06-08 12:33:04.067
+!MESSAGE Removing obsolete files from server...
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2018-06-08 12:33:04.067
+!MESSAGE Could not clean server of obsolete files: FWK005 parse may not be called while parsing.
+!STACK 0
+org.xml.sax.SAXException: FWK005 parse may not be called while parsing.
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.Factory.loadDocument(Factory.java:88)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.getCatalinaServerInstance(TomcatVersionHelper.java:216)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.cleanupCatalinaServer(TomcatVersionHelper.java:303)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat90Configuration.cleanupServer(Tomcat90Configuration.java:701)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:234)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:975)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3182)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:355)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)

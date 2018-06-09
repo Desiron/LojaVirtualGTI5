@@ -1,0 +1,102 @@
+package negocio;
+
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.SessionScoped;
+
+import beans.Fone;
+import beans.Pessoa;
+import persistencia.PessoaDAO;
+import persistencia.TelefoneDAO;
+
+@ManagedBean
+@SessionScoped
+public class PessoaCtrl implements Serializable {
+
+	private static final long serialVersionUID = 1L;
+	private Pessoa pessoa;
+	private List<Pessoa> list = new ArrayList<Pessoa>();
+
+	private String filtro = "";
+
+	public String getFiltro() {
+		return filtro;
+	}
+
+	public void setFiltro(String filtro) {
+		this.filtro = filtro;
+	}
+
+	public List<Pessoa> getList() {
+		return PessoaDAO.listagem(filtro);
+	}
+
+	public void setList(List<Pessoa> list) {
+		this.list = list;
+	}
+
+	public Pessoa getPessoa() {
+		return pessoa;
+	}
+
+	public void setPessoa(Pessoa pessoa) {
+		this.pessoa = pessoa;
+	}
+
+	public String actionGravar() {
+		if (pessoa.getId() == 0) {
+			PessoaDAO.inserir(pessoa);
+		} else {
+			PessoaDAO.alterar(pessoa);
+		}
+		pessoa = new Pessoa();
+		pessoa.setFones(new ArrayList<Fone>());
+		Fone fone = new Fone();
+		fone.setPessoa(pessoa);
+		return "form_pessoa";
+	}
+
+	public String actionInserir() {
+		pessoa = new Pessoa();
+		pessoa.setFones(new ArrayList<Fone>());
+		Fone fone = new Fone();
+		fone.setPessoa(pessoa);
+		pessoa.getFones().add(fone);
+		return "form_pessoa";
+	}
+
+	public String actionExcluir(Pessoa pes) {
+		PessoaDAO.excluir(pes);
+		return "form_pessoa";
+	}
+
+	public String actionAlterar(Pessoa pes) {
+		pessoa = pes;
+		pessoa.setFones(TelefoneDAO.listagem(pes));
+		return "form_pessoa";
+	}
+
+	public String actionInserirFone() {
+		Fone fone = new Fone();
+		fone.setPessoa(pessoa);
+		pessoa.getFones().add(fone);
+		return "form_pessoa";
+	}
+
+	public String actionExcluirFone(Fone f) {
+		pessoa.getFones().remove(f);
+		TelefoneDAO.excluirFone(f);
+		// pessoa.setFones(TelefoneDAO.listagem(pessoa));
+		return "form_pessoa";
+	}
+
+	public boolean TipoUser() {
+		if(pessoa.getTipo().equals("ROLE_CLIENTE")) {
+			return false;
+		}else {
+			return true;
+		}
+	}
+}

@@ -1,3 +1,9 @@
+create table produto(
+pro_id serial not null primary key,
+pro_nome varchar(60)
+pro_preco float
+);
+
 create table pessoa (
 pes_id	serial primary key,
 pes_nome	varchar(60),
@@ -30,3 +36,13 @@ create table forma_pgto(
  fpg_intervalo_dias integer,
  fpg_percentual_acres float
 );
+
+create table item (
+it_id integer,
+
+pes_id	integer,
+fon_numero	varchar(20),
+fon_descricao	varchar(30),
+constraint rel_pessoa_fone foreign key (pes_id) references pessoa (pes_id)
+);
+

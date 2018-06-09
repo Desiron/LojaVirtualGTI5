@@ -1,0 +1,18 @@
+package negocio;
+
+
+
+
+public  class RedirecionaPagina implements AuthenticationSuccessHandler {
+
+	public  void onAuthenticationSuccess(HttpRequest request, HttpServeltResponse response, Authentication authentication)
+			throws IOException, SaslException {
+		Set<String> roles = AuthorityUtils.authorityListToSet(authentication.getAuthorities());
+		if(roles.contains("ROLE_ADMINISTRADOR")) {
+			response.sendRedirect("/admin/principal.xhtml");
+		}else if(roles.contains("ROLE_CLIENTE")) {
+			response.sendRedirect("/cliente/principal.xhtml");
+		}
+		
+	}
+}

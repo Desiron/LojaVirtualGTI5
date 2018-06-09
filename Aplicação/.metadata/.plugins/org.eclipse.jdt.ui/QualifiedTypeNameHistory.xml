@@ -21,8 +21,6 @@
 <fullyQualifiedTypeName name="java.lang.ExceptionInInitializerError"/>
 <fullyQualifiedTypeName name="org.omg.CORBA.ExceptionList"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
-<fullyQualifiedTypeName name="javax.faces.application.FacesMessage"/>
-<fullyQualifiedTypeName name="javax.faces.context.FacesContext"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="javax.faces.bean.ManagedBean"/>
 <fullyQualifiedTypeName name="javax.faces.bean.SessionScoped"/>
@@ -45,4 +43,15 @@
 <fullyQualifiedTypeName name="persistencia.TelefoneDAO"/>
 <fullyQualifiedTypeName name="beans.Produto"/>
 <fullyQualifiedTypeName name="beans.Pessoa"/>
+<fullyQualifiedTypeName name="org.springframework.security.core.authority.AuthorityUtils"/>
+<fullyQualifiedTypeName name="org.springframework.security.web.authentication.AuthenticationSuccessHandler"/>
+<fullyQualifiedTypeName name="org.springframework.security.core.Authentication"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="javax.security.sasl.SaslException"/>
+<fullyQualifiedTypeName name="org.springframework.http.server.ServletServerHttpResponse"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="org.springframework.http.HttpRequest"/>
+<fullyQualifiedTypeName name="javax.faces.application.FacesMessage"/>
+<fullyQualifiedTypeName name="javax.faces.context.FacesContext"/>
+<fullyQualifiedTypeName name="org.primefaces.event.ToggleEvent"/>
 </qualifiedTypeNameHistroy>

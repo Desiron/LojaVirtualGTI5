@@ -53,22 +53,22 @@ public class ProdutoCtrl implements Serializable{
 			ProdutoDAO.alterar(produto);
 		}
 		produto = new Produto();
-		return "form_produto";
+		return "/admin/form_produto.xhtml";
 	}
 
 	public String actionInserir() {
 		produto = new Produto();
-		return "form_produto";
+		return "/admin/form_produto.xhtml";
 	}
 
 	public  String actionExcluir(Produto p) {
 		ProdutoDAO.excluir(p);
-		return "/admin/form_produto";
+		return "/admin/form_produto.xhtml";
 	}
 
 	public String actionAlterar(Produto p) {
 		produto = p;
-		return "form_produto";
-	}
+		return "/admin/form_produto.xhtml";
+	}	
 	
 }

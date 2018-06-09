@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<title>Loja Virtual</title>
+</h:head>
+
+<h:form id="men">
+
+</h:form>
+	<h:form id="listProd">
+			<p:dataGrid var="prod" value="#{produtoCtrl.lista}" columns="4"
+				layout="grid" rows="12" paginator="true" id="prods"
+				paginatorTemplate="  {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}">
+				<p:panel style="text-align:center" styleClass="semBorda">
+					<div align="center">
+						<p:panelGrid columns="1" styleClass="semBorda">
+							<h:graphicImage library="imagem" name="loja.gif"
+								url="imagem/loja.gif" />
+							<p:graphicImage styleClass="semBorda" height="40px" width="60px"
+								url="..imagem/loja.gif" name="imagem/loja.gif" />
+							<h:outputText value="#{prod.nome}" />
+							<h:outputText value="R$ #{prod.preco}" />
+							<p:commandButton value="Adicionar ao Carrinho" action=" " />
+						</p:panelGrid>
+					</div>
+				</p:panel>
+			</p:dataGrid>
+
+<h:body>
+</h:body>
+
+
+</html>
